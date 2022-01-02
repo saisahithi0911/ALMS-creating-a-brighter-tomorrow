@@ -2,12 +2,12 @@
 Technical Answers to Real World Problems- Project on ALMS-creating a brighter tomorrow
 Read me file:-
 ### Contents
-1. Introduction
-2. Hardware components and working
-3. Software requirements
-4. How to implement the code
+1. [Introduction](#1. Introduction)
+2. [Hardware components and working](#2. Hardware components and working)
+3. [Software requirements](#3. Software requirements)
+4. [How to implement the code](#4. [How to implement the code)
 
-### **1. Introduction**
+## **1. Introduction**
 In today’s world, huge quantity of food is being 
 wasted on a constant basis in our homes,Hotels 
 weddings and parties and many other places. Many 
