@@ -112,7 +112,7 @@ APP
 A video link of both software and hardware has been shared for your understanding of their working along with explanation of why we have chosen the project and those materials for making up the project
 
 ### 5. Contribution
-#### [SAI SAHITHI KODAVATI]
+#### [SAI SAHITHI KODAVATI](#hlo)
 #### [Y PRIYA VERMA]
 #### [K HARSHITHA]
 #### [N PRANITHA]
