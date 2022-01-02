@@ -1,6 +1,6 @@
 ## ALMS-creating-a-brighter-tomorrow
 **Technical Answers to Real World Problems- Project on ALMS-creating a brighter tomorrow**
-Read me file:-
+
 ### Contents
 1. [Introduction](#1.-Introduction)
 2. [Hardware components and working](#2.-Hardware-components-and-working)
