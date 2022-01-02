@@ -1,5 +1,5 @@
-### ALMS-creating-a-brighter-tomorrow
-Technical Answers to Real World Problems- Project on ALMS-creating a brighter tomorrow
+## ALMS-creating-a-brighter-tomorrow
+**Technical Answers to Real World Problems- Project on ALMS-creating a brighter tomorrow**
 Read me file:-
 ### Contents
 1. [Introduction](#1.-Introduction)
@@ -7,7 +7,7 @@ Read me file:-
 3. [Software requirements](#3.-Software-requirements)
 4. [How to implement the code](#4.-How-to-implement-the-code)
 
-## **1. Introduction**
+### 1. Introduction
 In today’s world, huge quantity of food is being 
 wasted on a constant basis in our homes,Hotels 
 weddings and parties and many other places. Many 
@@ -37,7 +37,7 @@ give food in their neighborhood. We will set up an
 association with NGO's who will assist us with giving 
 the food, garments and books to one side individuals.
 > 
-> **2. Hardware components and working**
+### 2. Hardware components and working
 ELEMENTS USED IN THE CIRCUIT 
 PREPARATION.
 i)LM358 op-Amp :- Wide supply ranges, 
@@ -80,7 +80,7 @@ an appropriate motor and a position feedback sensor.
 xi)9v or 5v power supply:- for the working of the
 circuit.
 
-> **3. Software requirements**
+ ### 3. Software requirements
 > Platforms:Flutter,Android studio.
 Language:html,java,php,mysql.
 Database:Mysql
