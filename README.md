@@ -6,6 +6,7 @@
 2. [Hardware components and working](#2-Hardware-components-and-working)
 3. [Software requirements](#3-Software-requirements)
 4. [How to implement the code](#4-How-to-implement-the-code)
+5. [Contribution](#5-Contribution)
 
 ### 1. Introduction
 In today’s world, huge quantity of food is being 
@@ -109,3 +110,10 @@ APP
 4. Download the .apk for mobile use
 
 A video link of both software and hardware has been shared for your understanding of their working along with explanation of why we have chosen the project and those materials for making up the project
+
+### 5. Contribution
+# SAI SAHITHI KODAVATI
+# Y PRIYA VERMA
+# K HARSHITHA
+# N PRANITHA
+# G FARAZ
