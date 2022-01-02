@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    justify-items: space-between;
+}
+
+nav img {
+    height: 70px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+    top: 3px;
+}
+
+.nav-links ul li {
+    bottom: 60px;
+    list-style: none;
+    display: inline-block;
+    padding: 2px 12px;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+
+.banner {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.8), rgba(4, 9, 30, 0.8), url(images/7.jpg));
+    background-size: cover;
+    position: relative;
+}
+
+.banner-title h1 {
+    width: 500px;
+    margin-left: 50px;
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    line-height: 70px;
+    padding: 0px 10px 0 10px;
+}
+
+.left-col {
+    margin-top: -100px;
+    margin-left: 75px;
+    font-size: 90px;
+    color: black;
+    line-height: 100px;
+    float: left;
+}
+
+.right-col {
+    float: right;
+    margin-right: -100px;
+    margin-top: -50px;
+    display: flex;
+}
+
+.right-col p {
+    margin: 0px;
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 800;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.content {
+    width: 80%;
+    margin-top: 150px;
+    text-align: left;
+    padding-top: 175px;
+    margin-left: 50px;
+}
+
+p {
+    color: #777;
+    font-size: 30px;
+    font-weight: 5000;
+    line-height: 22px;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+h1 {
+    margin-left: 250px;
+    text-align: center;
+}
+
+.now {
+    text-decoration: none;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    box-shadow: 5px 10px 8px #888888
+}
+
+.now:hover {
+    width: 200px;
+}
+
+.next-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.serv-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.serv-col img {
+    display: block;
+    width: 500px;
+    border-radius: 50px;
+}
+
+.layer {
+    border-radius: 50px;
+    background: transparent;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+
+.team {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.new {
+    margin-right: -30px;
+}
+
+.slide-row {
+    display: flex;
+    width: 3200px;
+}
+
+.slide-col {
+    width: 800px;
+    height: 400px;
+    transition: 0.5s;
+}
+
+.user-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-text {
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d3;
+    padding: 45px;
+    box-sizing: border-box;
+    Z-index: 2;
+}
+
+.user-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    transform: transulate(-50%, -50%);
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -50px;
+}
+
+.btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.active {
+    width: 45px;
+}
+
+.teammembers {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.testimonials {
+    width: 80%;
+    margin-top: 300px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.testimonials-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    background: #fff3ff;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+
+.testimonials-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.testimonials-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.testimonials-col .fa {
+    color: #f44336;
+}
+
+footer-wave {
+    background-image: url("images/WhatsApp Image 2021-03-24 at 12.36.38 PM.jpeg");
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: 50%;
+    width: 200%;
+    height: 100%;
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.footer-wave-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 50px;
+    overflow: hidden;
+}
+
+.footer-animation {
+    -moz-animation: footer_wave 5s linear infinite;
+    -o-animation: footer_wave 5s linear infinite;
+    -webkit-animation: footer_wave 5s linear infinite;
+    left: auto;
+    right: 0;
+}
+
+@-moz-keyframeskeyframes footer_wave {
+    0% {
+        -moz-transform: translate(0%);
+    }
+    50% {
+        -moz-transform: translateX(25%);
+    }
+    100% {
+        -moz-transform: translate(50%);
+    }
+}
+
+@-o-keyframeskeyframes footer_wave {
+    0% {
+        -o-transform: translate(0%);
+    }
+    50% {
+        -o-transform: translateX(25%);
+    }
+    100% {
+        -o-transform: translate(50%);
+    }
+}
+
+@-webkit-keyframeskeyframes footer_wave {
+    0% {
+        -webkit-transform: translate(0%);
+    }
+    50% {
+        -webkit-transform: translateX(25%);
+    }
+    100% {
+        -webkit-transform: translate(50%);
+    }
+}
+
+.main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-area {
+    margin-top: 100px;
+    padding: 100px 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2747c6+0,2989d8+50,6f80ce+100 */
+    background: #2747c6;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #2747c6 0%, #2989d8 50%, #6f80ce 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #2747c6 0%, #2989d8 50%, #6f80ce 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #2747c6 0%, #2989d8 50%, #6f80ce 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#2747c6', endColorstr='#6f80ce', GradientType=1);
+    /* IE6-9 */
+    color: #fff;
+    position: relative;
+}
+
+.single-footer {
+    width: 230px;
+}
+
+.single-footer ul {
+    list-style: none;
+}
+
+.single-footer ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.single-footer ul li a {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.single-footer ul li a i {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.single-footer:first-child {
+    width: 400px;
+}
+
+.single-footer h4 {
+    text-transform: capitalize;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 45%;
+    margin-right: 10px;
+    padding-top: 2px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}

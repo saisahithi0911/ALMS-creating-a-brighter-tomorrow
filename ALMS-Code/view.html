@@ -1,0 +1,93 @@
+<html>
+<style>
+body {
+  background: rgba(255, 255, 255, 0.5) url(items.jpg) no-repeat 0 50%;
+  background-repeat: no-repeat;
+  background-size: 1500px 680px;
+  
+  background-opacity:0.1;
+}
+* {
+  box-sizing: border-box;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: 	#000000;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 340px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: 	#000000;
+}
+.fcc-btn {
+  background-color: 	#000000;
+  color: white;
+padding: 1px 12px;
+  text-decoration: none;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  opacity:0.8;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+
+}
+</style>
+<body></body>
+<div class="container">
+<table class="styled-table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>mathbook(10th)</b></td>
+            <td><a class="fcc-btn" href="order.html">order</a></td>
+        </tr>
+        <tr>
+            <td><b>notebooks</b></td>
+            <td><a class="fcc-btn" href="order.html">order</a></td>
+        </tr>
+        <tr>
+            <td><b>textbooks</b></td>
+            <td><a class="fcc-btn" href="order.html">order</a></td>
+        </tr>
+        <tr>
+            <td><b>comicbook</b></td>
+            <td><a class="fcc-btn" href="order.html">order</a></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</html>
